@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Spectral-LightItalic;
+  src: url(Spectral-LightItalic.ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(Oswald/Oswald-Regular.ttf);
+}
+body,html{
+  margin:0;
+  height:100vh;
+}
+#logo {
+  max-width: 50%;
+  height: auto;
+}
+#home {
+  position: sticky;
+  z-index: 7;
+}
+.social_media_icons_left
+{ position: absolute;
+  top:0;
+  left: 0px;
+  text-align: left;
+  padding: 3%;
+  width: 50%;
+
+}
+.social_media_icons_right
+{ position: absolute;
+  top:0;
+  right: 0px;
+text-align: right;
+padding: 3%;
+width: 50%;
+
+}
+.social_media_icons_right img {
+  width: 10%;
+  height: auto;
+  float:right;
+  clear:right;
+  padding-bottom: 11%;
+}
+.social_media_icons_left img{
+  width: 10%;
+  height: auto;
+  float:left;
+  clear:left;
+ padding-bottom: 11%;
+}
+
+p {
+   font-family: Spectral-LightItalic;
+   font-style: italic;
+   font-size:2vw;
+}
+.main_text {
+  font-family: Oswald;
+  text-align: left;
+  font-size:2vw;
+  padding-left: 2%;
+}
+.top_menu {
+  display: inline;
+}
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+li:hover {
+   color: #01b7ff;
+   cursor: pointer;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+li {
+  font-family: Oswald;
+  font-size:2vw;
+  list-style-type: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+#episodes {
+ display: flex;
+ flex-direction: column;
+ flex:1;
+ overflow-y: scroll
+}
+ol li {
+list-style-type: decimal;
+}
+
+@media (max-width: 900px) {
+  li {
+    font-family: Oswald;
+    font-size:4vw;
+    list-style-type: none;
+  }
+  .top_menu {
+    display: block;
+  }
+  .main_text {
+    font-family: Oswald;
+    font-size:4vw;
+    padding-left: 2%;
+    text-align: center;
+  }
+  .main_text ul {
+    text-align: center;
+  }
+  p {
+    display: none;
+  }
+  .social_media_icons_right img {
+    width: 15%;
+    height: auto;
+    float:right;
+    clear:right;
+    padding-bottom: 1%;
+    padding-bottom: 11%;
+  }
+  .social_media_icons_left img{
+    width: 15%;
+    height: auto;
+    float:left;
+    clear:left;
+   padding-bottom: 1%;
+   padding-bottom: 11%;
+  }
+}
