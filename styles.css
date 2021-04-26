@@ -1,8 +1,4 @@
 @font-face {
-  font-family: Spectral-LightItalic;
-  src: url(Spectral-LightItalic.ttf);
-}
-@font-face {
   font-family: Oswald;
   src: url(Oswald/Oswald-Regular.ttf);
 }
@@ -18,23 +14,24 @@ body,html{
   position: sticky;
   z-index: 7;
 }
-.social_media_icons_left
-{ position: absolute;
+.link {
+  color: #ef3726;
+}
+.social_media_icons_left {
+  position: absolute;
   top:0;
-  left: 0px;
+  left: 0;
   text-align: left;
   padding: 3%;
   width: 50%;
-
 }
-.social_media_icons_right
-{ position: absolute;
+.social_media_icons_right {
+  position: absolute;
   top:0;
-  right: 0px;
-text-align: right;
-padding: 3%;
-width: 50%;
-
+  right: 0;
+  text-align: right;
+  padding: 3%;
+  width: 50%;
 }
 .social_media_icons_right img {
   width: 10%;
@@ -43,24 +40,22 @@ width: 50%;
   clear:right;
   padding-bottom: 11%;
 }
-.social_media_icons_left img{
+.social_media_icons_left img {
   width: 10%;
   height: auto;
   float:left;
   clear:left;
- padding-bottom: 11%;
-}
-
-p {
-   font-family: Spectral-LightItalic;
-   font-style: italic;
-   font-size:2vw;
+  padding-bottom: 11%;
 }
 .main_text {
   font-family: Oswald;
-  text-align: left;
+  text-align: center;
   font-size:2vw;
   padding-left: 2%;
+}
+.main_box {
+  width: 50%;
+  margin: auto;
 }
 .top_menu {
   display: inline;
@@ -70,18 +65,14 @@ body {
   color: white;
   text-align: center;
 }
-
 li:hover {
    color: #01b7ff;
    cursor: pointer;
 }
-
-
 a {
   color: inherit;
   text-decoration: inherit;
 }
-
 li {
   font-family: Oswald;
   font-size:2vw;
@@ -100,42 +91,42 @@ ul {
 ol li {
 list-style-type: decimal;
 }
-
 @media (max-width: 900px) {
-  li {
-    font-family: Oswald;
-    font-size:4vw;
-    list-style-type: none;
-  }
-  .top_menu {
-    display: block;
-  }
-  .main_text {
-    font-family: Oswald;
-    font-size:4vw;
-    padding-left: 2%;
-    text-align: center;
-  }
-  .main_text ul {
-    text-align: center;
-  }
-  p {
-    display: none;
-  }
-  .social_media_icons_right img {
-    width: 15%;
-    height: auto;
-    float:right;
-    clear:right;
-    padding-bottom: 1%;
-    padding-bottom: 11%;
-  }
-  .social_media_icons_left img{
-    width: 15%;
-    height: auto;
-    float:left;
-    clear:left;
-   padding-bottom: 1%;
-   padding-bottom: 11%;
-  }
+    li {
+      font-family: Oswald;
+      font-size:4vw;
+      list-style-type: none;
+    }
+    .top_menu {
+      display: block;
+    }
+    .main_text {
+      font-family: Oswald;
+      font-size:4vw;
+      padding-left: 2%;
+      text-align: center;
+    }
+    .main_text ul {
+      text-align: center;
+    }
+    .main_box {
+      width: 80%;
+      margin: auto;
+    }
+    .social_media_icons_right img {
+      width: 15%;
+      height: auto;
+      float:right;
+      clear:right;
+      padding-bottom: 1%;
+      padding-bottom: 11%;
+    }
+    .social_media_icons_left img{
+      width: 15%;
+      height: auto;
+      float:left;
+      clear:left;
+      padding-bottom: 1%;
+      padding-bottom: 11%;
+    }
 }
