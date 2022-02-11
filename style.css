@@ -1,0 +1,20 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+#great {
+  color: green;
+}
+#good {
+  color: lime;
+}
+#neutral {
+  color: yellow;
+}
+#bad {
+  color: orange;
+}
+#hostile {
+  color: red;
+}
